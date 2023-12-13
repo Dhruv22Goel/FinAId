@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: dark) {
+  * {
+    --textcolor: #FFFCF2;
+    --bgcolor: #252422;
+    --bs-body-color: #21222c;
+    /* tabel ke ander ka color */
+    --lightbgcolor: #282a36;
+    --highlight: #CCC5B9;
+    --bs-success: #CCC5B9;
+    --red: #FF2020;
+    --orange: #DC9271;
+    --yellow: #f1fa8c;
+    --purple: #E7B8E7;
+    --cyan: #8be9fd;
+    --pink: #8DE4FF;
+    --selection: #44475a;
+    /* border color */
+    --comment: #F4b301;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  * {
+    --bgcolor: #eaebf9;
+    --lightbgcolor: #f8f8f2;
+    --textcolor: #282a36;
+    --highlight: #008504;
+    --bs-success: #008504;
+    --red: #d82f39;
+    --orange: #a0651b;
+    --yellow: #6c7908;
+    --purple: #855fbf;
+    --cyan: #007e90;
+    --pink: #c13f8e;
+    --selection: #c5c8de;
+    --comment: #7e8ec2;
+  }
+}

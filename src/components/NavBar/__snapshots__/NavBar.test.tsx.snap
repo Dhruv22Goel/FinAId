@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavBar > matches snapshot 1`] = `
+<NavBar
+  onClone={[MockFunction spy]}
+  onExport={[MockFunction spy]}
+  onGoBack={[MockFunction spy]}
+  onGoForward={[MockFunction spy]}
+  onGoHome={[MockFunction spy]}
+  onImport={[MockFunction spy]}
+  onNew={[MockFunction spy]}
+  onRemove={[MockFunction spy]}
+  onRename={[MockFunction spy]}
+  onSelect={[MockFunction spy]}
+/>
+`;
