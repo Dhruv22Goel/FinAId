@@ -21,3 +21,6 @@ root.render(
     <App />
   </React.StrictMode>,
 );
+//just like anyother React index file
+// The only difference is that it has a registerSW function that helps to update the website when ever a new.
+//version is avaliable

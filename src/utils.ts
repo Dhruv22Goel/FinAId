@@ -323,3 +323,45 @@ export function getNestedValues<T, K extends keyof T, L extends keyof T[K]>(
     return getNestedProperty(o, prop1, prop2);
   });
 }
+/*Certainly! Let's delve deeper into the code and provide a more detailed explanation of each function and its purpose:
+
+1. **Big.js and React Imports**:
+   - `Big` from `"big.js"`: This library is used for precise decimal arithmetic, especially useful for financial calculations.
+   - `MutableRefObject` from `"react"`: This is a type provided by React for managing mutable references within functional components.
+
+2. **Constants**:
+   - `userLang`: Stores the user's preferred language retrieved from the `navigator.language`.
+   - `currenciesMap`: Likely a mapping of country codes to currency codes, used for determining currency based on locale.
+
+3. **Utility Functions**:
+   - **`getCountryCode(locale: string): string`**: Extracts the country code from a given locale string.
+   - **`getCurrencyCode(country: string): string`**: Retrieves the currency code based on the country code.
+   - **`roundBig(number: Big, precision: number): number`**: Rounds a Big.js number to a specified precision.
+   - **`calcTotal(values: ItemForm[]): Big`**: Calculates the total value of a list of items (expenses or incomes).
+   - **`calcPercentage(itemValue: number, revenueTotal: number): number`**: Calculates the percentage of an item's value relative to the .
+   total revenue.
+   - **`calc(itemValue: number, change: number, operation: string): number`**: Performs basic arithmetic operations on numbers (addition .
+    subtraction, multiplication, division).
+   - **`calcAvailable(value: Budget | null): Big`**: Calculates the available budget by subtracting total expenses from total incomes.
+   - **`calcWithGoal(value: Budget): number`**: Calculates the available budget after considering a specified financial goal.
+   - **`calcSaved(value: Budget): number`**: Calculates the amount saved towards a financial goal.
+   - **`calcAutoGoal(value: Budget): number`**: Calculates an automatic financial goal based on available income.
+   - **`convertCsvToBudget(csv: string[], date: string): Budget`**: Converts CSV data into a Budget object.
+   - **`createNewBudget(): Budget`**: Creates a new Budget object with default values.
+   - **`intlFormat(amount: number, currencyCode: string): string`**: Formats a number as currency based on the user's locale and currency 
+   code.
+   - **`focusRef(ref: MutableRefObject<HTMLInputElement | undefined>): void`**: Focuses on a DOM element referenced by a MutableRefObject.
+   - **`createBudgetNameList(list: Budget[]): SearchOption[]`**: Creates a list of options for selecting a budget, likely for use in a. 
+   dropdown menu.
+   - **`parseLocaleNumber(stringNumber: string, locale: string | undefined): number`**: Parses a string representing a number with .
+   locale-specific formatting.
+   - **`budgetToCsv(budget: Budget): string`**: Converts a Budget object into a CSV string.
+   - **`median(arr: number[]): number`**: Calculates the median value of an array of numbers.
+   - **`getNestedProperty<O, K extends keyof O, L extends keyof O[K]>(object: O, firstProp: K, secondProp: L): O[K][L]`**: Accesses a .
+   nested property within an object.
+   - **`getNestedValues<T, K extends keyof T, L extends keyof T[K]>(list: T[] | undefined, prop1: K, prop2: L): T[K][L][]`**: Retrieves .
+   nested property values from an array of objects.
+
+These utility functions are critical for performing various tasks related to budget management, financial calculations, data .
+manipulation, and internationalization within the React application. They encapsulate common operations, making the code more modular, 
+reusable, and maintainable.*/
