@@ -20,3 +20,6 @@ export default function App() {
     </ConfigProvider>
   );
 }
+//Simple App.jsx as any other react project will have.
+//the confusion exists at line 6 and 7 just because of the different way importing files.
+// else the rest is same.
