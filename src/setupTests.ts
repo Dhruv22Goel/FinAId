@@ -265,3 +265,5 @@ export const testBudgetContext = {
 
   revenuePercentage: 10,
 };
+//This code seems to be setting up a testing environment for a React application using Jest and Vitest, with.
+//additional utilities from libraries like @testing-library/jest-dom.
