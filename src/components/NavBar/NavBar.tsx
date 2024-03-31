@@ -257,7 +257,7 @@ function NavBar({
                 target="_blank"
                 rel="noreferrer"
               >
-                guitos
+                FinAId
               </a>
             </Navbar.Brand>
           </OverlayTrigger>
@@ -479,13 +479,13 @@ function NavBar({
                 buttonAriaLabel={"open instructions in new tab"}
                 buttonClassName="w-100"
                 buttonVariant={"outline-info"}
-                buttonLink="https://github.com/rare-magma/guitos#getting-started"
+                buttonLink="https://github.com/Dhruv22Goel/FinAId"
                 buttonIcon={
                   expanded ? "instructions" : <BsQuestionLg aria-hidden />
                 }
                 target="_blank"
               />
-              <OverlayTrigger
+              {/* <OverlayTrigger
                 delay={250}
                 placement="bottom"
                 overlay={
@@ -493,21 +493,21 @@ function NavBar({
                     id={`tooltip-guitos-version`}
                     style={{ position: "fixed" }}
                   >
-                    guitos version
+                    FinAId version
                   </Tooltip>
                 }
               >
                 <Navbar.Brand className="version justify-content-end align-self-end m-2">
                   <a
-                    aria-label="open guitos changelog"
-                    href="https://github.com/rare-magma/guitos/blob/main/CHANGELOG.md"
+                    aria-label="open FinAId changelog"
+                    href="https://github.com/Dhruv22Goel/FinAIdd"
                     target="_blank"
                     rel="noreferrer"
                   >
                     v{APP_VERSION}
                   </a>
                 </Navbar.Brand>
-              </OverlayTrigger>
+              </OverlayTrigger> */}
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

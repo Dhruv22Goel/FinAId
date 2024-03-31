@@ -121,7 +121,7 @@
         { "id": 1, "name": "salary", "value": 1000 },
         { "id": 2, "name": "2nd hand sale", "value": 250 },
         { "id": 3, "name": "2nd hand sale", "value": 250 },
-        { "id": 4, "name": "3rd hand sale", "value": 300 }
+        { "id": 4, "name": "salary 2", "value": 300 }
       ],
       "total": 1800
     },
@@ -130,7 +130,7 @@
       "withGoal": 350,
       "saved": 300,
       "goal": 20,
-      "reserves": 1150
+      "reserves": 1200
     }
   }
 ]

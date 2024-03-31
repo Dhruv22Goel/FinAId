@@ -32,6 +32,7 @@
   "dependencies": {
     "big.js": "6.2.1",
     "bootstrap": "5.3.2",
+    "git": "^0.1.5",
     "localforage": "1.10.0",
     "papaparse": "5.4.1",
     "react": "18.2.0",
@@ -63,7 +64,7 @@
     "@vitejs/plugin-react": "4.1.0",
     "@vitest/coverage-v8": "0.34.6",
     "@vitest/ui": "0.34.6",
-    "eslint": "8.51.0",
+    "eslint": "8.57.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-jest-dom": "5.1.0",

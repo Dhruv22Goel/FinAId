@@ -111,7 +111,7 @@ function StatCard({ onChange, onAutoGoal, onShowGraphs }: StatCardProps) {
               placement="top"
               overlay={
                 <Tooltip id={`tooltip-graphs`} style={{ position: "fixed" }}>
-                  open charts view
+                  {/* open charts view */}
                 </Tooltip>
               }
             >
